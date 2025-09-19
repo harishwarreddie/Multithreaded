@@ -1,0 +1,81 @@
+[herri@mercury1 Assignment-4]$ make
+gcc -o donuts donut_problem.c -lpthread
+[herri@mercury1 Assignment-4]$ ./donuts A4_donut_loop.sh
+[herri@mercury1 Assignment-4]$ ./A4_donut_loop.sh 10
+-bash: ./A4_donut_loop.sh: Permission denied
+[herri@mercury1 Assignment-4]$ chmod +x A4_donut_loop.sh
+[herri@mercury1 Assignment-4]$ ./A4_donut_loop.sh 10
+
+The configuration is for 10 LOOPS
+
+
+Working on LOOP 1
+
+JOB AND PID IS 57245
+PID REMAINING IS 57245
+
+DEADLOCK DETECTED ON LOOP 1
+
+#### KILLING ALL THREADS
+./A4_donut_loop.sh: line 48: 57245 Terminated              ./donuts
+
+Working on LOOP 2
+
+JOB AND PID IS 58245
+
+Working on LOOP 3
+
+JOB AND PID IS 58989
+PID REMAINING IS 58989
+
+DEADLOCK DETECTED ON LOOP 3
+
+#### KILLING ALL THREADS
+./A4_donut_loop.sh: line 48: 58989 Terminated              ./donuts
+
+Working on LOOP 4
+
+JOB AND PID IS 60026
+
+Working on LOOP 5
+
+JOB AND PID IS 60648
+
+Working on LOOP 6
+
+JOB AND PID IS 61360
+PID REMAINING IS 61360
+
+DEADLOCK DETECTED ON LOOP 6
+
+#### KILLING ALL THREADS
+./A4_donut_loop.sh: line 48: 61360 Terminated              ./donuts
+
+Working on LOOP 7
+
+JOB AND PID IS 62263
+
+Working on LOOP 8
+
+JOB AND PID IS 62735
+
+Working on LOOP 9
+
+JOB AND PID IS 63090
+PID REMAINING IS 63090
+
+DEADLOCK DETECTED ON LOOP 9
+
+#### KILLING ALL THREADS
+./A4_donut_loop.sh: line 48: 63090 Terminated              ./donuts
+
+Working on LOOP 10
+
+JOB AND PID IS 63635
+PID REMAINING IS 63635
+
+DEADLOCK DETECTED ON LOOP 10
+
+#### KILLING ALL THREADS
+./A4_donut_loop.sh: line 48: 63635 Terminated              ./donuts
+10 loops and 5 deadlocks

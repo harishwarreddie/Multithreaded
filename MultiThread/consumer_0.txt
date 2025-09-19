@@ -1,0 +1,30 @@
+Consumer thread #: 0 dozen #: 1
+Plain: 3 Jelly: 3 Coconut: 3 Honey-dip: 3
+
+Consumer thread #: 0 dozen #: 2
+Plain: 3 Jelly: 3 Coconut: 4 Honey-dip: 2
+
+Consumer thread #: 0 dozen #: 3
+Plain: 2 Jelly: 1 Coconut: 2 Honey-dip: 7
+
+Consumer thread #: 0 dozen #: 4
+Plain: 0 Jelly: 1 Coconut: 5 Honey-dip: 6
+
+Consumer thread #: 0 dozen #: 5
+Plain: 2 Jelly: 4 Coconut: 2 Honey-dip: 4
+
+Consumer thread #: 0 dozen #: 6
+Plain: 1 Jelly: 0 Coconut: 6 Honey-dip: 5
+
+Consumer thread #: 0 dozen #: 7
+Plain: 0 Jelly: 2 Coconut: 7 Honey-dip: 3
+
+Consumer thread #: 0 dozen #: 8
+Plain: 1 Jelly: 5 Coconut: 4 Honey-dip: 2
+
+Consumer thread #: 0 dozen #: 9
+Plain: 3 Jelly: 1 Coconut: 4 Honey-dip: 4
+
+Consumer thread #: 0 dozen #: 10
+Plain: 2 Jelly: 3 Coconut: 2 Honey-dip: 5
+
