@@ -13,10 +13,10 @@ The implementation included:
 	-Condition Variables: Enable producers to pause when buffers are full and consumers to wait 	when buffers are empty.
 	-Thread Management: Threads are created dynamically and rejoined after completion.
 
-# Producer Function
+Producer Function
 	Every producer picks a donut flavor at random and adds a donut to the matching circular list. If the list is full, the producer pauses and waits for a signal
 
-# Consumer Function
+Consumer Function
 	Each consumer retrieves a dozen donuts, ensuring availability by waiting on a variable 	condition when necessary. Selected consumers log their first ten dozen purchases for 	analysis.
 
 # Testing Methodology
@@ -39,7 +39,7 @@ Deadlock Probability (%)
     +----------------------------------------
       1500 1600 1700 1800 1900 2000 (Queue Size)
 
-# Observations
+#Observations
 	1.Queue Size 1500: Deadlock probability is 100%, indicating severe congestion results in 	complete system failure.
 	2.Queue Size 1600: Probability decreases to 90%, reflecting a slight reduction in 	contention.
 	3.Queue Size 1700: A sharp drop is observed as deadlock probability falls to 60%.
@@ -60,7 +60,7 @@ Deadlock Probability (%)
     +----------------------------------------------
       1000 1500 2000 2500 3000 (Dozens Collected)
 
-# Observations
+#Observations
 	1.1000 Donuts Collected: Deadlock probability is 10%, indicating minimal resource 	contention.
 	2.1500 Donuts Collected: Probability rises sharply to 50%, reaching a critical congestion 	threshold.
 	3.2000 Donuts Collected: A drastic increase to 90% suggests severe system overload.
